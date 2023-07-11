@@ -1,0 +1,75 @@
+*{
+	box-sizing: border-box;
+}
+html, body{
+	margin: 0px;
+	height: 100%;
+	color: hsla(0, 100%, 100%)
+	
+}
+
+#GenerateButton{
+	background-color: #4CAF50; /* Green */
+	border: solid orange;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 26px;
+}
+
+#GerichtBild{
+	Width: 400px;
+	height: 300px;
+}
+
+
+.image {
+	background-image: url("Background.jpg");
+	/* Add the blur effect */
+	filter: blur(8px);
+	-webkit-filter: blur(8px);
+
+	/* Full height */
+	height: 150%;
+
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;	
+	background-attachment: fixed;
+}
+
+
+.description {
+	font-size: 170%;
+	position: absolute;
+	width: 50%;
+	font-weight: 500;
+	top: 20%;
+	left: 25%;
+	background-color: hsla(0, 0%, 0%, 0.8);
+	padding: 10px;
+}
+
+.cookingTimesSelect {
+	padding-bottom: 20px;
+	
+}
+
+.veganSelect {
+	
+}
+
+.filters {
+	padding-bottom: 20px;
+	display: inline-block;
+}
+
+.fat {
+	font-weight: 900;
+	color: orange;
+}
+
+
+background-color: hsla (0, 0%, 0%);
